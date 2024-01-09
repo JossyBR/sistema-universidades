@@ -1,9 +1,0 @@
-<!-- Este archivo sirve para evitar que alguien ajeno quiera ver nuestras carpetas -->
-
-Options All -Indexes
-
-<!-- Tambien permite crear URL'S amigables -->
-RewriteEngine On 
-<!-- la anterior sentencia permite que cuando se redireccione a una pagina no tengamos que escribir la ruta completa solo el nombre de la misma -->
-
-RewriteRule ^([a-zA-Z0-9/]+)$ index.php?url-$1
